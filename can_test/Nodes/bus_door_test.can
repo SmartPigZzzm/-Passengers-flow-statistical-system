@@ -1,0 +1,33 @@
+/*@!Encoding:936*/
+includes
+{
+ 
+  
+ 
+}
+
+variables
+{
+  message BUS_OPEN bus_open;
+  message time_send time_send1;
+ mstimer timer_1;
+}
+
+on start
+{
+  setTimer(timer_1,1000);
+}
+
+on timer timer_1
+{
+  bus_open.Front_door_state=@sysvar::BUS_TEST::BUS_FRONT_DOOR;
+  bus_open.rear_door_state=@sysvar::BUS_TEST::BUS_REAR_DOOR;
+  
+  setTimer(timer_1,1000);
+  time_send1.time_hour=@sysvar::BUS_TEST::hour;
+  time_send1.time_minute=@sysvar::BUS_TEST::minute;
+  time_send1.time_second=@sysvar::BUS_TEST::second;
+  
+  output(bus_open);
+  output(time_send1);
+} 
