@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../AutoLabelimg/AutoLabelImg-master/.idea/AutoLabelImg-master.iml" filepath="$PROJECT_DIR$/../../AutoLabelimg/AutoLabelImg-master/.idea/AutoLabelImg-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Color-Similarity-Calculation-master/.idea/Color-Similarity-Calculation-master.iml" filepath="$PROJECT_DIR$/../Color-Similarity-Calculation-master/.idea/Color-Similarity-Calculation-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Siamese-pytorch-master/Siamese-pytorch-master/.idea/Siamese-pytorch-master.iml" filepath="$PROJECT_DIR$/../Siamese-pytorch-master/Siamese-pytorch-master/.idea/Siamese-pytorch-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Yolov5_DeepSort_Traffic-counter-main.iml" filepath="$PROJECT_DIR$/.idea/Yolov5_DeepSort_Traffic-counter-main.iml" />
+    </modules>
+  </component>
+</project>
